@@ -4441,6 +4441,9 @@ button.close {
     padding: 1rem;
     margin: -1rem -1rem -1rem auto; }
 
+    label{
+      color: #fff;
+    }
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5; }
@@ -7412,7 +7415,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .1em;
-  font-size: 48px;
+  font-size: 22px;
   font-family: "Gaegu", cursive; }
 
 .bg-image, .ftco-cover {
@@ -8694,16 +8697,18 @@ textarea.form-control {
       content: ""; }
   .block-30 .heading {
     color: #fff;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 1.1;
     margin-bottom: 50px;
     font-family: "Gaegu", cursive; }
     @media (min-width: 768px) {
       .block-30 .heading {
-        font-size: 80px; } }
+        font-size: 40px; }}
     @media (min-width: 992px) {
       .block-30 .heading {
-        font-size: 40px; } }
+        font-size: 40px; }
+        .navbar-brand {
+          font-size: 40px;}  }
   .block-30 .btn {
     background: #fff;
     border-radius: 0;
